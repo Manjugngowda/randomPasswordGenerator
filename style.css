@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.input_field{
+    width: 100vw;
+    margin: 10px 0;
+    text-align: center;
+
+}
+.input_field input{
+    margin: 10px 5px;
+    width: 95%;
+    height: 30px;
+}
+.input_field button>img{
+    width: 1.5rem;
+    height: 1rem;
+    padding: 1px;
+    
+}
+.password_length{
+    display: flex;
+    margin: 10px 5px;
+    justify-content: space-between;
+}
+
+.checkbox{
+    margin: 10px 5px;
+    padding-top: 20px;
+}
+.checkbox button{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #116bb4;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.checkbox button:hover{
+    background-color: green;
+    border: none;
+}
